@@ -1,0 +1,135 @@
+header{
+    text-align: center;
+    padding:10px;
+    background-color: rgb(166, 191, 163);
+}
+header img{
+    height : 250px;
+}
+nav a{
+    padding: 5px 15px;
+    color:rgb(81, 124, 109);
+    text-decoration: none;
+    border-radius: 0px 0px 15px 15px;
+    transition: 0.3s;
+}
+nav a:hover{
+    color:rgb(180, 231, 223);
+    background-color: rgb(22, 42, 31);
+    border-radius: 30px 30px 30px 30px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 4px -2px ;
+}
+.deskripsiHome{
+    width: 40%;
+    margin-left: 50px;
+    font-size: 20px;
+    & h1{
+      color:rgb(154, 241, 202);
+    }
+    & h3{
+        color:rgb(155, 183, 171);
+    }& p{
+        color:rgb(244, 244, 244);
+        padding:30px;
+    }
+
+}
+.home{
+    background-image: url("bg.png");
+    height:800px;
+    background-size: cover;
+    padding-top:100px;
+}
+body{
+    margin:0;
+}
+.deskripsiHome a{
+    text-decoration: none;
+    color:rgb(209, 238, 218);
+    background-color: rgb(22, 42, 31) ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 1px ;
+    border:2px white;
+}
+.deskripsiHome a:hover{
+    box-shadow:5px 5px 10px -2px rgb(168, 212, 166);
+    padding:11px 31px;
+}
+.About{
+    height: 570px;
+    background-color: rgb(110, 130, 76);
+}
+.container-about{
+    background-color: rgb(59, 75, 32);
+    width:50%;
+    margin-left:25%;
+    text-align: center;
+    height:75%;
+    padding-top: 50px 20px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 15px rgb(190, 230, 123);
+}
+.container-about img{
+    height:200px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 15px rgb(190, 230, 123);
+}
+.howto{
+    Height:800px;
+    background-color: rgb(110, 130, 76);
+}
+.deskHowto{
+    background-color: rgb(59, 75, 32);
+    width:50%;
+    margin-left:25%;
+    text-align: center;
+    padding-top: 50px 20px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 15px rgb(190, 230, 123);
+}
+.deskHowto img{
+    height:200px;
+    box-shadow: 0px 0px 15px rgb(190, 230, 123);
+}
+.profile{
+    background-color: rgb(110, 130, 76);
+}
+.cardProfile{
+    background-color: rgb(59, 75, 32) ;
+    width:50%;
+    margin:auto;
+    text-align: center;
+    height:100%;
+    padding-top: 50px 20px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow:0px 0px 15px rgb(190, 230, 123) ;
+    width:300px;
+}
+.profile img{
+    height:200px;
+}
+.medsos{
+    left:0;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Memastikan padding tidak merusak lebar elemen */
+}
+
+html {
+    scroll-behavior: smooth; /* Bonus agar perpindahan antar section mulus */
+}
+
